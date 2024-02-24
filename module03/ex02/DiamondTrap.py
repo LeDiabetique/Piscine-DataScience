@@ -32,7 +32,7 @@ class King(Baratheon, Lannister):
                 - hairs: str
         """
         super().__init__(first_name, is_alive)
-        
+
     def set_eyes(self, eyes):
         """
         Description : Set the eyes color
