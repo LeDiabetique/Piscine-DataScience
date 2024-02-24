@@ -10,6 +10,7 @@ class calculator:
             -sub
 
     """
+
     def __init__(self, values):
         self.values = values
 
@@ -26,7 +27,7 @@ class calculator:
         print(self.values)
 
     def __truediv__(self, value):
-        if (value is 0):
+        if value is 0:
             return print("Error: Division by 0 is not authorized !")
         self.values = [values / value for values in self.values]
         print(self.values)
@@ -38,7 +39,7 @@ def main():
     v1 + 5
     print("---")
     v2 = calculator([0.0, 1.0, 2.0, 3.0, 4.0, 5.0])
-    v2 * 5
+    v2 * "hugo"
     print("---")
     v3 = calculator([10.0, 15.0, 20.0])
     v3 - 5
